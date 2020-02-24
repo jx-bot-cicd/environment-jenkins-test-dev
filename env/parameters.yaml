@@ -1,0 +1,10 @@
+adminUser:
+  password: local:jenkins-test/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: almerico@gmail.com
+  token: local:jenkins-test/pipelineUser:token
+  username: jx-bot-cicd
+prow:
+  hmacToken: local:jenkins-test/prow:hmacToken
